@@ -9872,4 +9872,15 @@ h3 {
   list-style-type: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+#video {
+  display: none;
+}
+
+#botona {
+  display: block;
+}
+
+#botonb {
+  display: none;
+}
+
