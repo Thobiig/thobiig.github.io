@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>First level - Gutiérrez</title>
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="icon" href="svg/favicon.svg" type="svg">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="gif/profile.gif" alt="Image">
+                <h1 class="font-weight-bold">Gustavo Gutiérrez</h1>
+                <p class="mb-4">
+                     👨🏻‍💻 Systems Engineer Student
+                <br> 📂 Never will be always
+                <br> 🤠 Life goes on
+                </p>
+                <a href="https://linktr.ee/thobiig/" target="_blank" class="btn btn-lg btn-block btn-primary mt-auto">See more</a>
+            </div>
+        
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Navbar Start -->
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="" class="navbar-brand d-block d-lg-none">Menu</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About me</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Levels</a>
+                                <div class="dropdown-menu">
+                                    <a href="firstlevel.html" class="dropdown-item">First level</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar End -->
+
+            <!-- Page Header Start -->
+
+            <!-- Page Header End -->
+                
+                
+                <!-- Blog List Start -->
+
+                <div class="container bg-white pt-5">
+
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/presentation.jpg" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Activity #1 - Presentation</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 21-02-2023</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> First activity</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i>(First level)</small>
+                            </div>
+                            <p>
+                                
+                                Present a friend in your blog (name, age, occupation, nationality, birthplace, adjectives) min 20 - 30 seg (Video).
+
+                            </p>
+
+                            <video id="video" width="400" controls>
+                                <source src="vid/Presentation.mp4" type="video/mp4">
+                            </video>
+
+                            <a class="btn btn-link p-0" id="botona" onclick="mostrar();">Read more <i class="fa fa-angle-right"></i></a>
+                            <a class="btn btn-link p-0" id="botonb" onclick="ocultar();">Read lees <i class="fa fa-angle-right"></i></a>
+
+                        </div>
+                    </div>
+
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/act2.png" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Unit 1 - level 1</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 21-02-2023</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Activity two</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i>(First level)</small>
+                            </div>
+                            <p>
+                                
+                                <img src="img/A1L1/Base.png" width="400" alt="">
+
+                            </p>
+
+                            <div id="kiko-slider">
+
+                                <ul class="slider">
+                                    <li id="slide1">
+                                        <img src="./img/A1L1/Res1.png" />
+                                    </li>
+                                    <li id="slide2">
+                                        <img src="./img/A1L1/Res2.png" />
+                                    </li>
+                                    <li id="slide3">
+                                        <img src="./img/A1L1/Res3.png" />
+                                    </li>
+                                </ul>
+                        
+                                <ul class="menu">
+                                    <li>
+                                        <a href="#slide1"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#slide2"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#slide3"></a>
+                                    </li>
+                                </ul>
+                        
+                            </div>
+
+                            <a class="btn btn-link p-0" id="botonas" onclick="mostrarSlider();">Read more <i class="fa fa-angle-right"></i></a>
+                            <a class="btn btn-link p-0" id="botonbs" onclick="ocultarSlider();">Read lees <i class="fa fa-angle-right"></i></a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Blog List End -->
+                
+                
+                <!-- Footer Start -->
+                <div class="container py-4 bg-secondary text-center">
+                    <p class="m-0 text-white">
+                        &copy; <a class="text-white font-weight-bold" href="#">Gutiérrez Blog</a>. Made exclusively for English class. <a class="text-white font-weight-bold" href="#">@ElThobiig</a>
+                    </p>
+                </div>
+                <!-- Footer End -->
+            </div>
+        </div>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
